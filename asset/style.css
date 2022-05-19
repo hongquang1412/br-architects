@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.padding-32-16{
+    padding: 32px 16px;
+}
+
+.padding-0-8{
+    padding: 0 8px;
+}
+    
+.nav{
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    z-index: 9;
+}
+
+.nav-name{
+    padding: 8px 16px;
+    letter-spacing: 4px;
+}
+
+.nav-name:hover{
+    background-color: #ccc;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    font-size: 15px;
+}
+
+.banner-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner-title{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: #fff;
+}
+
+@media only screen and (min-width: 64em){
+    .banner-title{
+        
+    }
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+    .banner-title{
+        top: 20%;
+    }
+}
+
+@media only screen and (max-width: 46.1875em){
+    .nav-items-no-mobile{
+        display: none;
+    }
+    .banner-title{
+        top: 15%;
+        font-size: 36px;
+    }
+    .banner-title-no-mobile{
+        display: none;
+    }
+}
+
+.banner-title b{
+    padding: 8px 16px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+#project,
+#about,
+#contact,
+#map{
+    padding: 8px 16px;
+}
+
+#project h3,
+#about h3,
+#contact h3{
+    padding: 16px 0px;
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.card-img{
+    position: relative;
+}
+
+.card-img-name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+.card-img img{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+#about .content{
+    margin: 15px 0;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card .card-name{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.card .card-position{
+    font-size: 15px;
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.card .card-description{
+    margin-bottom: 15px;
+}
+
+.card .card-btn{
+    width: 100%;
+    border: none;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    font-size: 15px;
+}
+
+.card .card-btn:hover{
+    background-color: #ccc;
+}
+
+
+#contact .padding-32-16 p{
+    margin: 15px 0;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+form button{
+    margin: 16px 0;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+form button:hover{
+    color: #000;
+    border: none;
+    background-color: #ccc;
+}
+
+#map img{
+    width: 100%;
+    padding: 0.15px 16px;
+}
+
+#footer{
+    background-color: #000;
+    padding: 16px 0;
+}
+
+#footer p{
+    color: #fff;
+    margin: 15px 0;
+    text-align: center;    
+}

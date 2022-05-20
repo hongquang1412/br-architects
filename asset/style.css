@@ -21,7 +21,8 @@ a{
 .padding-0-8{
     padding: 0 8px;
 }
-    
+
+/* header */
 .nav{
     position: fixed;
     height: 55px;
@@ -51,6 +52,7 @@ a{
     font-size: 15px;
 }
 
+/* banner */
 .banner-img{
     position: relative;
     width: 100%;
@@ -113,6 +115,7 @@ a{
     font-weight: 200;
 }
 
+/* project */
 .card-img{
     position: relative;
 }
@@ -130,6 +133,8 @@ a{
     width: 100%;
     margin-bottom: 16px;
 }
+
+/* about */
 
 #about .content{
     margin: 15px 0;
@@ -166,7 +171,7 @@ a{
     background-color: #ccc;
 }
 
-
+/* contact */
 #contact .padding-32-16 p{
     margin: 15px 0;
 }
@@ -190,10 +195,13 @@ form button:hover{
     background-color: #ccc;
 }
 
+/* map */
 #map img{
     width: 100%;
     padding: 0.15px 16px;
 }
+
+/* footer */
 
 #footer{
     background-color: #000;
